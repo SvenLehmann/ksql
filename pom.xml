@@ -128,6 +128,9 @@
         <ce.kafka.version>5.5.0-ce-SNAPSHOT</ce.kafka.version>
         <confluent.version>5.5.0-SNAPSHOT</confluent.version>
         <compile.warnings-flag>-Werror</compile.warnings-flag>
+        <io.confluent.common.version>[6.0.0-1, 6.0.1-0)</io.confluent.common.version>
+        <io.confluent.rest-utils.version>[6.0.0-1, 6.0.1-0)</io.confluent.rest-utils.version>
+        <io.confluent.schema-registry.version>[6.0.0-1, 6.0.1-0)</io.confluent.schema-registry.version>
     </properties>
 
     <dependencyManagement>
@@ -253,31 +256,31 @@
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-connect-avro-converter</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-json-serializer</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>rest-utils</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.rest-utils.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-avro-serializer</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-schema-registry-client</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
@@ -289,31 +292,31 @@
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>common-utils</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.common.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-json-schema-provider</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-protobuf-provider</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-connect-json-schema-converter</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>io.confluent</groupId>
                 <artifactId>kafka-connect-protobuf-converter</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.schema-registry.version}</version>
             </dependency>
 
             <!-- End Confluent dependencies -->
