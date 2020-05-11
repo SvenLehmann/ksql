@@ -26,6 +26,7 @@
     </parent>
 
     <artifactId>ksqldb-udf-quickstart</artifactId>
+    <version>6.0.0-0</version>
     <packaging>maven-archetype</packaging>
     <name>ksqlDB UDF / UDAF :: Quickstart</name>
     <url>https://github.com/confluentinc/ksql/blob/master/ksqldb-udf-quickstart</url>

@@ -26,6 +26,7 @@
     </parent>
 
     <artifactId>ksqldb-udf</artifactId>
+    <version>6.0.0-0</version>
 
     <dependencies>
         <!-- Required for running tests -->
