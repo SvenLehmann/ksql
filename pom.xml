@@ -41,7 +41,7 @@
     <modules>
         <module>ksqldb-udf</module>
         <module>ksqldb-common</module>
-        <module>ksqldb-udf-quickstart</module>
+        <!--<module>ksqldb-udf-quickstart</module>-->
         <module>ksqldb-serde</module>
         <module>ksqldb-metastore</module>
         <module>ksqldb-execution</module>
