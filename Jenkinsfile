@@ -7,4 +7,5 @@ dockerfile {
     dockerPush = false
     dockerScan = false
     dockerImageClean = false
+    testbreakReporting = false
 }
