@@ -128,8 +128,7 @@
         <ce.kafka.version>5.5.0-ce-SNAPSHOT</ce.kafka.version>
         <confluent.version>${project.version}</confluent.version>
         <compile.warnings-flag>-Werror</compile.warnings-flag>
-        <io.confluent.common.version>[6.0.0-0, 6.0.1-0)</io.confluent.common.version>
-        <io.confluent.rest-utils.version>[6.0.0-0, 6.0.1-0)</io.confluent.rest-utils.version>
+        <io.confluent.rest-utils.version>${parent.project.version}</io.confluent.rest-utils.version>
         <io.confluent.schema-registry.version>[6.0.0-0, 6.0.1-0)</io.confluent.schema-registry.version>
     </properties>
 
