@@ -174,7 +174,6 @@ Object Model (POM) file for the Maven build, and name it ``pom.xml``:
             <kafka.version>|kafka_release|</kafka.version>
             <kafka.scala.version>|scala_version|</kafka.scala.version>
             <scala.version>${kafka.scala.version}.8</scala.version>
-            <confluent.version>|release|</confluent.version>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         </properties>
 
@@ -184,7 +183,7 @@ Object Model (POM) file for the Maven build, and name it ``pom.xml``:
             <dependency>
                 <groupId>io.confluent.ksql</groupId>
                 <artifactId>ksql-udf</artifactId>
-                <version>${confluent.version}</version>
+                <version>${io.confluent.ksql.version}</version>
             </dependency>
         </dependencies>
 

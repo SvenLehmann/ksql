@@ -172,7 +172,7 @@ Project Object Model (POM) file for the Maven build, and name it
         <dependency>
             <groupId>io.confluent.ksql</groupId>
             <artifactId>ksql-udf</artifactId>
-            <version>${confluent.version}</version>
+            <version>${io.confluent.ksql.version}</version>
         </dependency>
     </dependencies>
 
