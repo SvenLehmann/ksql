@@ -63,7 +63,8 @@
         <module>ksqldb-benchmark</module>
         <module>ksqldb-functional-tests</module>
         <module>ksqldb-rocksdb-config-setter</module>
-        <module>ksqldb-docker</module>
+        <!-- TODO: have to get this to work when using common.groovy -->
+        <!-- <module>ksqldb-docker</module> -->
         <module>ksqldb-api-reactive-streams-tck</module>
     </modules>
 
