@@ -17,4 +17,5 @@ common {
   upstreamProjects = 'confluentinc/schema-registry'
   extraDeployArgs = '-Ddocker.skip=true'
   testbreakReporting = false
+  timeoutHours = 3
 }
